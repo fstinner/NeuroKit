@@ -60,8 +60,8 @@ def signal_findpeaks(
          * ``"Height"``: contains the prominence of each peak.
            See :func:`.scipy.signal.peak_prominences`.
          * ``"Width"``: contains the width of each peak. See :func:`.scipy.signal.peak_widths`.
-         * ``"Onset"``: contains the onset, start (or left trough), of each peak.
-         * ``"Offset"``: contains the offset, end (or right trough), of each peak.
+         * ``"Onsets"``: contains the onset, start (or left trough), of each peak.
+         * ``"Offsets"``: contains the offset, end (or right trough), of each peak.
 
     Examples
     ---------
